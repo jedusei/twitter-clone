@@ -1,23 +1,18 @@
 import React from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import { Text, StyleSheet, View } from 'react-native';
 
-
-export default function HomeScreen() {
+export default function MsgScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.h1}>
-        Home
+        No Messages
      </Text>
     </View>
   );
 }
 
-HomeScreen.navigationOptions = {
-  header: null,
+MsgScreen.navigationOptions = {
+  title: 'Messages',
 };
 
 const styles = StyleSheet.create({
