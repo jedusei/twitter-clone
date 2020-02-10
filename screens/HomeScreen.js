@@ -16,9 +16,9 @@ export default function HomeScreen() {
         <View style={{ height: 100, flex: 4, justifyContent: "center", alignItems: "center" }}>
           <Image source={require('../assets/images/simona-profile.jpg')} style={{ width: 80, height: 80, borderRadius: 100 }} />
         </View>
-        <View style={{ height: 100, flex: 8, justifyContent: 'center', paddingLeft: 5 }}>
+        <View style={{ height: 100, flex: 8, justifyContent: 'center' }}>
           <Text style={{ fontSize: 20 }}>Joseph Edusei</Text>
-          <Text style={{ fontSize: 12, opacity: 0.5 }}>Apple ID, iCloud & App Store</Text>
+          <Text style={{ fontSize: 12, opacity: 0.5 }}>Apple ID, iCloud, iTunes & App Store</Text>
         </View>
         <View style={{ height: 100, alignSelf: "flex-end", justifyContent: "center", marginRight: 10 }}>
           <Ionicons name='ios-arrow-forward' size={24} />
